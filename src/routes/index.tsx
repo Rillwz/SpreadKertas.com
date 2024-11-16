@@ -4,12 +4,13 @@ import type { DocumentHead } from "@builder.io/qwik-city";
 export default component$(() => {
   return (
     <>
-      <h1>Hi 👋</h1>
-      <div>
-        Can't wait to see what you build with qwik!
-        <br />
-        Happy coding.
+    <main class="flex min-h-screen flex-col items-center justify-center">
+      
+      <div class="px-3 py-2 rounded-xl">
+        <h1 class="font-edu font-medium text-2xl text-[#1A1A1D] ">SpreadKertas</h1>
       </div>
+      
+    </main>
     </>
   );
 });
